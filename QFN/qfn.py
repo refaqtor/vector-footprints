@@ -107,3 +107,73 @@ QFN(
     bodyw = 4.0,   # outer body size
     thermal= 2.45 # thermal pad size
     )
+
+# QFN32
+QFN(
+    name = "qfn-32.svg", # filename for svg
+    offset = (10,10), # global offset
+    width1 = 5.5,   # outer distance
+    width2 = 3.75,   # row width
+    padh = 0.7,   # pad height
+    padw = 0.25,   # pad width
+    spaceing = 0.5,    # pin spacing
+    padcount = 8,     # pins per side
+    bodyw = 5.0,   # outer body size
+    thermal= 3.45 # thermal pad size
+    )
+
+# QFN40
+QFN(
+    name = "qfn-40.svg", # filename for svg
+    offset = (10,10), # global offset
+    width1 = 6.5,   # outer distance
+    width2 = 4.75,   # row width
+    padh = 0.7,   # pad height
+    padw = 0.25,   # pad width
+    spaceing = 0.5,    # pin spacing
+    padcount = 10,     # pins per side
+    bodyw = 6.0,   # outer body size
+    thermal= 4.42 # thermal pad size
+    )
+
+# QFN44
+QFN(
+    name = "qfn-44.svg", # filename for svg
+    offset = (10,10), # global offset
+    width1 = 7.5,   # outer distance
+    width2 = 5.25,   # row width
+    padh = 0.7,   # pad height
+    padw = 0.25,   # pad width
+    spaceing = 0.5,    # pin spacing
+    padcount = 11,     # pins per side
+    bodyw = 7.0,   # outer body size
+    thermal= 5.15 # thermal pad size
+    )
+
+# QFN48
+QFN(
+    name = "qfn-48.svg", # filename for svg
+    offset = (10,10), # global offset
+    width1 = 7.5,   # outer distance
+    width2 = 5.75,   # row width
+    padh = 0.7,   # pad height
+    padw = 0.25,   # pad width
+    spaceing = 0.5,    # pin spacing
+    padcount = 12,     # pins per side
+    bodyw = 7.0,   # outer body size
+    thermal= 5.15 # thermal pad size
+    )
+
+# QFN64
+QFN(
+    name = "qfn-64.svg", # filename for svg
+    offset = (10,10), # global offset
+    width1 = 9.5,   # outer distance
+    width2 = 7.75,   # row width
+    padh = 0.7,   # pad height
+    padw = 0.25,   # pad width
+    spaceing = 0.5,    # pin spacing
+    padcount = 16,     # pins per side
+    bodyw = 9.0,   # outer body size
+    thermal= 7.15 # thermal pad size
+    )
